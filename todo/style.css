@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.todo {
+  display: flex;
+  gap: 0.5rem;
+  background-color: bisque;
+  width: 15rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.delete {
+  color: red;
+  align-self: right;
+  margin-left: auto;
+}
+
+.done {
+  text-decoration: line-through;
+}
